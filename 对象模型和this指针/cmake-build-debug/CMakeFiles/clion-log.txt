@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/buzhenyu/CLionProjects/4_3c++对象模型和this指针
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/buzhenyu/CLionProjects/4_3c++对象模型和this指针/cmake-build-debug
