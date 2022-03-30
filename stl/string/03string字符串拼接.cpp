@@ -1,0 +1,48 @@
+//
+// Created by VINNO on 2022/3/29.
+//
+
+#include <iostream>
+#include <string>
+/**
+ * ×Ö·û´®Æ´½Ó£¬Ä©Î²×·¼Ó×Ö·û´®
+ */
+
+using namespace std;
+
+
+void test01()
+{
+    string str1 = "ÎÒ";
+    str1 += "°®´òÓÎÏ·";
+    cout << str1 << endl;
+
+    str1 += ':';
+    cout << str1 << endl;
+
+    string str2 = "LOL DNF";
+    str1 += str2;
+    cout << str1 << endl;
+
+
+    string str3 = "I";
+    str3.append(" love ");
+    cout << str3 << endl;
+
+    str3.append("game abcde", 4);
+    cout << str3 << endl;
+
+//    str3.append(str2);
+//    str3.append(str2, 3);
+    str3.append(str2, 3, 6); // start count
+    cout << str3 << endl;
+
+
+}
+
+
+int main()
+{
+    test01();
+    return 0;
+}
